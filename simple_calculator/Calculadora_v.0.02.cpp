@@ -6,47 +6,47 @@ int main ( )
 {
 	setlocale (LC_ALL, "Portuguese");
 	
-	//Vari·veis agrupadas
+	//Vari√°veis agrupadas
 	float n1, n2, resultado;
 	char operacao, resposta;
 	string nome_operacao, cor_da_fonte;
 	
 	do {
 	// 1. Setup e Boas-vindas
-	cout << "\n=====Bem vindo ‡ Calculadora v.0.02=====\n\n";
+	cout << "\n=====Bem vindo √† Calculadora v.0.02=====\n\n";
 	
 	//2. Coleta dos inputs (Entrada)
-	cout << "Digite o primeiro n˙mero: ";	
+	cout << "Digite o primeiro n√∫mero: ";	
 	cin >> n1;
 	
-	cout << "Selecione a operaÁ„o (+, -, *, /): ";
+	cout << "Selecione a opera√ß√£o (+, -, *, /): ";
 	cin >> operacao;
 	
-	cout << "Digite o segundo n˙mero: ";
+	cout << "Digite o segundo n√∫mero: ";
 	cin >> n2;
 	 
-	//4. Processamento (OperaÁıes matem·ticas)	
+	//4. Processamento (Opera√ß√µes matem√°ticas)	
 	if (operacao == '+') {
 		resultado = n1 + n2;
-		nome_operacao = "adiÁ„o"; 
+		nome_operacao = "adi√ß√£o"; 
     }
     
     	else if (operacao == '-') {
 		resultado = n1 - n2;
-		nome_operacao = "subtraÁ„o";
+		nome_operacao = "subtra√ß√£o";
     }
 	
 		else if (operacao == '*') {
 		resultado = n1 * n2;
-		nome_operacao = "multiplicaÁ„o";
+		nome_operacao = "multiplica√ß√£o";
     }
     
     	else if (operacao == '/') {
 		resultado = n1 / n2;
-		nome_operacao = "divis„o";
+		nome_operacao = "divis√£o";
     }
 	
-	//3. SaÌda
+	//3. Sa√≠da
 	if (resultado > 0) {
 	cor_da_fonte = "\033[32m";
 	}
@@ -58,7 +58,7 @@ int main ( )
 	}
 
 	cout << "\nResultado da " << nome_operacao << ": " << cor_da_fonte << resultado << "\033[0m\n";
-	cout << "\nDeseja fazer outra operaÁ„o? (S/N) ";
+	cout << "\nDeseja fazer outra opera√ß√£o? (S/N) ";
 	cin >> resposta;
 	} while (resposta == 's' || resposta == 'S');
 	
