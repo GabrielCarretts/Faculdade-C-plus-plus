@@ -11,7 +11,6 @@ int main()
     float current_item_price, discounted_price, discount_percentage, grand_total;
     string current_item_name;
     char answer;
-    int i;
 
     // Input //
 
