@@ -1,5 +1,3 @@
-// Construa um algoritmo que leia a cotação do dólar, leia um valor em dólares, converta esse valor para Real e mostre o resultado.//
-
 #include <iostream>
 using namespace std;
 int main()
