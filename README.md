@@ -10,6 +10,7 @@ Each project focuses on building a strong foundation in programming logic, gradu
 
 ## Projects
 
+* **Student Grade Classifier** – assigns a concept (A–E) based on a validated numeric grade
 * **Simple Calculator** – performs basic arithmetic operations with user-selected operators 
 * **Temperature Converter** – converts between Celsius and Fahrenheit using conditional logic 
 * **Car Cost Calculator** – computes final consumer price including taxes and markup 
