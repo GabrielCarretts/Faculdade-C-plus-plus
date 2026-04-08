@@ -54,9 +54,9 @@ int main()
         cout << fixed << setprecision(2);
         cout << UNDERLINED_TEXT << COLOR_GOLD << "\n\n====> " << client_name << " <====" << COLOR_RESET << endl;
         cout << COLOR_CYAN << "\nDuration of stay: " << days << " days" << COLOR_RESET;
-        cout << "\nService fee per day: $ " << service_fee_per_day << COLOR_RESET;
-        cout << "\nLodging cost: $ " << lodging_cost << COLOR_RESET;
-        cout << "\nService cost: $ " << service_cost << COLOR_RESET;
+        cout << COLOR_CYAN << "\nService fee per day: $ " << service_fee_per_day << COLOR_RESET;
+        cout << COLOR_CYAN <<"\nLodging cost: $ " << lodging_cost << COLOR_RESET;
+        cout << COLOR_CYAN << "\nService cost: $ " << service_cost << COLOR_RESET;
         cout << COLOR_GOLD << "\nTotal bill amount: $ " << total_bill << COLOR_RESET;
         cout << COLOR_GOLD << "\n\nWould you like to calculate another bill? (Y/N) " << COLOR_RESET;
         cin >> answer;
